@@ -1,0 +1,39 @@
+#main{
+    box-sizing: border-box;
+    font-family: open sans;
+}
+
+.logo{
+position: absolute;
+width: 195px;
+height: 130px;
+left: 700px;
+top: 69px;
+}
+
+.nav-route ul{
+    list-style-type: none;
+    z-index: 100;
+    position: absolute;
+    /* width: 154px; */
+    height: 41px;
+    left: 1400px;
+    top: 50px;
+}
+
+.create-account-section{
+    position: absolute;
+    left: 630px;
+    right: 7.8%;
+    top: 179px;
+    bottom: 74.91%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 136.5%;
+    /* or 43px */
+    letter-spacing: 0.1em;
+    color: #1A16CF;
+    border: 0.873118px solid #FFFFFF;   
+}
+    

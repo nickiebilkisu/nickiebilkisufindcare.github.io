@@ -1,0 +1,370 @@
+#main{
+    box-sizing: border-box;
+    font-family: open sans;
+}
+.top-bar{
+position: absolute;
+width: 1934px;
+height: 155px;
+left: -182px;
+top: -65px;
+background: #4272B7;
+}
+
+.logo{
+position: absolute;
+width: 195px;
+height: 130px;
+left: 155px;
+top: 69px;
+
+}
+
+.nav-route ul{
+list-style-type: none;
+z-index: 100;
+position: absolute;
+/* width: 154px; */
+height: 41px;
+left: 587px;
+top: 100px;
+}
+
+.nav-route ul li{
+display: inline;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 41px;
+color: #000000;
+margin: 0 25px;
+}
+
+.login{
+position: absolute;
+width: 126px;
+height: 60px;
+left: 1217px;
+top: 104px;
+background: #FFFFFF;
+border: 2px solid #000000;
+border-radius: 20px;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 38px;
+text-align: center;
+color: #000000;
+}
+
+.sign-up{
+position: absolute;
+width: 190px;
+height: 60px;
+left: 1366px;
+top: 104px;
+background: #4272B7;
+border-radius: 20px;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 41px;
+text-align: center;
+color: #FFFFFF;
+border: none;
+}
+
+/* .hero-text{
+position: absolute;
+width: 641.92px;
+height: 378px;
+left: 165px;
+top: 263px;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 95px;
+color: #000000;
+}
+
+.hero-paragraph{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 22.1603px;
+line-height: 30px; 
+color: #000000;
+       
+}
+
+.hero-image{
+position: absolute;
+width: 777px;
+height: 788px;
+left: 779px;
+top: 211px;
+} */
+
+.about-us-text{
+    width: 1728px;
+    height: 30vh;
+    background: #4272B7; 
+    position: absolute;
+    top: 300px;
+    text-align: center;  
+    color: whitesmoke;  
+    }
+
+.about-us-paragraph{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22.1603px;
+    line-height: 30px; 
+    color: whitesmoke;        
+}
+
+.why-us-section{
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    left: 40px;
+    top: px;
+}
+
+.why-us-text{
+    position: absolute;
+    width: 1657px;
+    height: 30vh;
+    left: px;
+    top: 600px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    text-align: center;
+    color: #4272B7;  
+}
+
+.why-us-paragraph{
+    position: absolute;
+    width: 814px;
+    height: 250px;
+    left: 658px;
+    top: 150px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 50px;
+    /* or 156% */
+    display: flex;
+    align-items: center;
+    color: #4272B7;  
+}
+
+.why-us-image{
+    position: absolute;
+    width: 200px;
+    height: 534px;
+    left: 40px;
+    top: 700px;
+}
+
+.why-us2-image{
+    position: absolute;
+    width: 585px;
+    height: 534px;
+    left: 887px;
+    top: 1290px;       
+}
+
+.why-us3-image{
+    position: absolute;
+    width: 585px;
+    height: 534px;
+    left: 40px;
+    top: 1900px;   
+}
+
+.why-us2-paragraph{
+    position: absolute;
+    width: 694px;
+    height: 100px;
+    top: 200px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 50px;
+    text-align: left;
+    color: #4272B7; 
+    right: 600px; 
+}
+
+.why-us3-paragraph{
+    position: absolute;
+    width: 814px;
+    height: 250px;
+    left: 658px;
+    top: 150px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 50px;
+    text-align: right;
+    color: #4272B7;   
+}
+
+    .footer-section{
+        position: absolute;
+        width: 2000px;
+        height: 484px;
+        background: #1E2833;  
+        top: 2500px; 
+    }
+    
+    .footer-text{
+        position: absolute;
+        height: 29px;
+        left: 200px;
+        top: 60px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 29px;
+        letter-spacing: -0.3px;
+        color: #FFFFFF;    
+    }
+    
+    .footer-get-started{
+        left: 200px;
+        top: 130px;   
+        width: 199px;
+        height: 56px;
+        background: #4272B7;
+        border-radius: 8px; 
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 22px;
+        letter-spacing: -0.231818px;
+        color: #FFFFFF; 
+        position: absolute;
+        
+    }
+    
+    .footer-link{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: -0.204545px;
+        color: #FFFFFF;   
+        position: absolute;
+        top: 68px;
+        left: 550px;   
+    }
+    .footer-link ul{
+        list-style-type: none;
+    }
+    .footer-link ul li{
+        margin: 10px 0;
+    }
+    
+    .footer-link-1{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: -0.204545px;
+        color: #FFFFFF;   
+        position: absolute;
+        top: 68px;
+        left: 870px;      
+    }
+    .footer-link-1 ul{
+        list-style-type: none;
+    }
+    .footer-link-1 ul li{
+        margin: 10px 0;
+    }
+    
+    .footer-link-2{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: -0.204545px;
+        color: #FFFFFF;   
+        position: absolute;
+        top: 68px;
+        left: 1200px; 
+    }
+    .footer-link-2 ul{
+        list-style-type: none;
+    }
+    .footer-link-2 ul li{
+        margin: 10px 0;
+    }
+    
+    .footer-link-3{
+        position: absolute;
+        height: 20px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: -0.204545px;
+        color: #FFFFFF;   
+        left: 200px;
+        top: 400px;
+    }
+    .footer-link-3 ul{
+        list-style-type: none;
+    }
+    .footer-link-3 ul li{
+        margin: 10px 0;
+    }
+    
+    .footer-link-4{
+        position: absolute;
+        height: 20px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: -0.204545px;
+        color: #FFFFFF;   
+        left: 550px;
+        top: 400px;    
+    }
+    .footer-link-4 ul{
+        list-style-type: none;
+    }
+    .footer-link-4 ul li{
+        margin: 10px 0;
+    }
+    
+    .footer-link-5{
+        position: absolute;
+        height: 20px; 
+        top: 400px;
+        left: 1200px;
+    }
+    
+    .footer-link-6{
+        position: absolute;
+        height: 20px;
+        top: 400px;
+        left: 1250px;
+    }
+    
+    .footer-link-7{
+        position: absolute;
+        height: 20px;
+        top: 400px;
+        left: 1300px;   
+    }
+       
